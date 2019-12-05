@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/resources/style.css=UTF-8
+encoding//src/do_an/entity/User.java=UTF-8
+encoding//src/doan/controller/DoAnController.java=UTF-8
+encoding//src/doan/controller/LoginRegisterController.java=UTF-8

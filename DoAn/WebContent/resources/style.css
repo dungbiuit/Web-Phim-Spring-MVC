@@ -1,0 +1,532 @@
+														/*CSS Document*/
+
+body{ background-color:#060d1d;
+	color:#D58D00;
+ 	font-family: 'Poppins', sans-serif;
+  	font-size:1.5vw;
+}
+.container-fluid{
+	padding:0%;
+	max-width: 100%;
+	
+}
+.bg-dark{
+	background-color: #050e1d !important;
+}
+.navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-text{
+	color:white;
+}
+.navbar-color{
+	background-color:#3a5e58;
+}
+.navbar-text{
+	padding:0%;
+	font-weight: bold;
+	font-size: 1.5vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar-nav.ml-auto.mx-auto {
+	
+	font-size: 100%;
+}
+.navbar-nav.ml-auto.mx-auto a:hover{
+		color:#D58D00;
+	
+	text-decoration: underline; 
+	
+}
+
+	/*Footer*/
+	
+								/*Index.htm*/
+							
+.container_hello_guest{
+	padding:0%;margin:0%;
+	width:90%;
+	position: relative;
+}
+#hello_guest_index{
+	
+	width: 111%;
+	height:350px;
+	filter: blur(3px);
+}
+.movie_quote_index{
+	position: absolute;top: 20%;
+	font-size:3vw;
+	width:90%;
+	left:15% ;
+	
+}
+.movie_quote_author{
+	top:40%;
+	left:50%;
+	font-size:2vw;
+	width:50%;
+	position: absolute;
+	font-weight: bold;
+	]
+}
+div.container-fluid.container-introduction{
+	
+	border-top: 5px solid #D58D00;
+	
+	border-bottom: 5px solid #D58D00;
+	
+}
+div.container-fluid.container-account-present{
+	position: relative;	
+}
+#admin_avatar_round_image{
+	
+	display:inline-block;
+	position:relative;
+	border: solid;
+	
+	width:130px;
+	height:130px;
+	overflow: hidden;
+	border-radius:50%;
+	
+	left:45%;
+}
+#admin_name_index{
+	font-weight: bold;
+	font-size: 1.5vw;
+	text-align: center;
+}
+#admin_quote_index{
+	font-weight: bold;
+	font-size: 3vw;
+	text-align: center;
+}
+button.btn.btn-primary.btn-lg.btn-about-us{
+	
+	width: 20%;
+	font-size: 200%;
+	color:#D58D00;
+	
+}
+
+																/*Feedback*/
+div.container-fluid.container-feedback-page{
+	position: relative;
+	width: 100%;
+	height:30%;
+}
+div.jumbotron{
+	color:white;
+	background:transparent;
+	margin:5%;
+	position: absolute;
+	top:0%;
+	  backdrop-filter: blur(0.8);
+}
+h1.display-4{
+	font-size: 5vw;
+}
+p.lead{
+	font-size: 3vw;
+}
+form#login-form.border.border-primary.form-feedback{
+	position: absolute;
+	width: 40%;
+	top:113%;
+}
+
+
+
+img#account_background_index{
+	
+	width:100%;
+	
+	filter: blur(3px);
+	
+}
+
+div.card.standard_information-show-left{
+	border: 3.5px solid #D58D00;
+	position: absolute;
+	top: 20%;
+	left:25%;
+	height:50%;
+	width:20%;
+}
+
+img.card-img-top{
+	width:100%;
+}
+div.card-body{
+	text-align: center;
+}
+h5.card-title{
+	font-weight: bold;
+	font-size: 2vw;
+}
+p.card-text{
+	
+	font-size: 1vw;
+}
+div.container-price{
+	color:red;
+	font-weight:bold;
+	font-size: 3vw;
+}
+div.card.standard_information-show-right{
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	height:50%;
+	width:20%;
+	border: 3.5px solid #D58D00;
+}
+p#check-out-quote{
+	position: absolute;
+	top:75%;
+	left:35%;
+	font-size: 3vw;
+}
+button.btn.btn-primary.btn-lg.btn-sign-in{
+	position: absolute;
+	text-align: center;
+	top: 85%;
+	width:20%;
+	left:45%;
+	
+}
+hr{
+	border:3px solid #D58D00;
+}
+div.container-fluid.container-feedback{
+	padding: 5%;
+	
+}
+#feedback-left-picture{
+	width:40%;
+	
+	
+}
+div#text-right-feedback{
+	
+	position:relative;
+	float: right;
+	right:9%;
+	top:100px;
+}
+h3#feedback-title{
+	position:relative;
+	font-size: 3vw;
+	left: 30%;
+}
+
+p#feedback-index{
+	position:relative;
+	left:10%;
+	font-size: 2vw;
+	
+}
+div.container-fluid.container-footer{
+	
+	text-align: center;
+	clear: both;
+}
+button.btn.btn-primary.btn-feedback{
+	position: relative;
+	padding:3%;
+	left:25%;
+	font-size: 2vw;
+	font-weight: bold;
+}
+														/*Login.htm*/
+ img#login-register-background{
+ 	width:100%;
+ 	height:645px;
+ 	filter: blur(3px);
+ }
+ #login-form{
+ 	background-color:white;
+	 position: absolute;
+    top: 60%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    padding:20px;
+}														
+#login-link-to-register,#login-link-to-forget-password{
+	font-size:1.2vw;
+	font-weight: bold;
+	text-decoration: none;
+	
+	float:left;
+}
+#login-link-to-register:hover {
+	color:red;
+	text-decoration: underline;
+}
+.card-img-top{
+	width:200px;
+}
+button.btn.btn-primary.btn-login{
+	text-align: center;
+}						
+													/*TV_SHOWS*/
+.resize-image-tv-show{
+	margin-top:10%;
+	width:90%;
+	height:300px;
+	margin-bottom:15px;
+	transition: all 0.3s;
+}
+.container-tv-show{
+	
+	padding: 5% 0%;
+	width: 80%;
+}
+.container-movie-item{
+	margin-left:10%;
+}
+.row{margin:0%;}
+
+
+														/*Register.htm*/
+.btn-dang-ky{
+	font-size:100%;
+	width:30%;
+	height:20%;
+	  margin:0px 30%; 
+}
+														/*Show_information_user.htm*/
+div#container-show-information{
+	margin-left:20%;
+	margin-right:20%;
+	border: 2px solid #D58D00;
+	background-color: white;
+}
+button.btn.btn-primary.btn-update-show-information{
+	padding: 1% 5%;
+}
+div#text-information{
+	margin:5%;
+	text-align: center;
+}
+														/*Update User*/
+.image-upload > input {
+  visibility:hidden;
+  width:0;
+  height:0
+}
+																/*Detail_Page*/
+div.container-detail-page{
+	padding: 5% 10%;
+	height:80%;
+}
+img#slider-image-detail-page{
+	width:100%;
+	height:20%;
+}
+
+img#avatar-movie-detail-page{
+	width:20%;
+	height:10%;
+}
+div.show-name-on-right-detail-page{
+	display:inline-block;
+	font-size: 5vw;
+	position:relative;
+	left: 10%;
+	width:60%;
+}
+div.category-genre-year-movie-detail-page{
+	position: relative;
+	font-size: 2vw;
+}
+div.introduction-detail-page{
+	position: relative;
+	font-size: 1.5vw;
+	width: 80%;
+}
+div.container-references{
+	padding-top: 2%;
+}
+p#more-like-this{
+	font-size: 1.5vw;
+	color: white;
+}
+img.more-like-this-image{
+	width: 50%;
+	float: right;
+}
+div.container-comment{
+	padding-top:5%;
+	clear:both;
+	width:100%;
+	
+	background-color: white;
+}
+p#comment-header-detail-page{
+	text-align: center;
+	font-size: 5vw;
+}
+
+
+img.mr-3{
+	width:5vw;
+	
+}
+h5.mt-0{
+	font-size: 2vw;
+}
+textarea#content{
+	width: 100%;
+	font-size: 1.5vw;
+}
+button.btn.btn-info{
+	width:20%;
+	height:5%;
+}
+														/*Index VIP*/
+div.container-request-movie-index-vip{
+	
+	padding: 5% 10%;
+	 position: relative;
+	 height: 100%;
+}
+
+
+img.background-request-index-vip{
+	width: 100%;
+	height:20%;
+}
+p#request_movie{
+	position: absolute;
+	top:20%;
+	font-size: 5vw;
+	
+}
+p#request-movie-quote{
+	position: absolute;
+	top: 30%;
+	font-size: 3vw;
+	width: 40%;
+}
+button.btn.btn-primary.btn-request-movie{
+	position: absolute;
+	top: 50%;
+	left:20%;
+	padding:1% 5%;
+	font-size: 2vw;
+	
+}
+														/*Request_movie*/
+.container-request-movie,.container-show-request-information{
+	width:80%;
+	margin:5% 10%;
+	padding: 5% 10%;
+	border: 2px solid #D58D00;
+	background-color: white;
+	text-align: center;
+	height:100%;
+	font-size: 2vw;
+}
+.container-request-movie input,textarea,select{
+	font-size:1.5vw;
+}
+.container-request-movie textarea{
+	font-size:1.5vw;
+}
+.container-request-movie select{
+	font-size:1.5vw;
+}
+form#request{
+	overflow:auto;
+	font-size: 2vw;
+}
+button.btn.btn-primary.btn-send-request-movie{
+	font-size: 2vw;
+}
+																/*Show Request Information*/
+.container-show-request-information{
+	font-size: 1.5vw;
+}
+img#avatar-show-request-information{
+	width:20%;
+	height:40%;
+	text-align: center;
+	
+}
+button.btn.btn-primary.btn-back-request-movie{
+	margin-top:2%;
+	
+	font-size: 1.5vw;
+}
+																
+																/*Index_admin*/
+.container-number-of-user-left{
+	
+	width: 33%;
+	color:white;
+	background-color: #f6914d;
+	float: left;
+	text-align: center;
+	font-size: 2vw;
+}
+.container-number-of-movie-middle{
+	left:33%;
+	width: 33%;
+	color:white;
+	background-color: #f8c34f;
+	float:left;
+	text-align: center;
+	font-size: 2vw;
+}
+.container-number-of-request-right{
+	left:33%;
+	width: 34%;
+	color:white;
+	background-color: #ff80c0;
+	float:left;
+	text-align: center;
+	font-size: 2vw;
+}
+																/*Show_list_user*/
+.container-show-list-user{
+	width:80%;
+	font-size: 1.5vw;
+}
+
+
+
+.grid-container{
+	display: inline-grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  
+  padding: 0 50px;
+  width: 100%;
+}
+
+.grid-item{
+  margin: 0 auto;
+}
+.grid-item:hover {
+  	background-color: #f4f4f4;
+	border-radius:5px;
+	border : 1px dashed #fff;
+	
+}
+
+.grid-photos img{
+	width: 250px;
+	height: 375px;
+}
+.grid-moviename{
+	text-align: center;
+	font-weight: bold;
+}
+																/*Show List Movie*/
+button.btn.btn-primary.btn-insert-movie{
+	display: block; margin: 0 auto;
+	width: 20%;
+	font-size: 3vw;
+}
